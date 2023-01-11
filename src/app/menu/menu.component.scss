@@ -26,3 +26,18 @@ header {
         height: 50px;
     }
 }
+
+.darkLinks {
+    a {
+        color: black;
+
+        &:hover {
+            color: rgba($color: #0000, $alpha: 0.8);
+        }
+    }
+}
+
+.headerDark {
+    background-color: white;
+    box-shadow: 0px 1px 3px 0 rgba($color: #0000, $alpha: 0.2);
+}
